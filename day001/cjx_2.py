@@ -1,10 +1,6 @@
 
-
-
-
 if __name__ == '__main__':
     a = '崔23456果芽软件学院'
-
     print(a[4:5])
     print (a[0:8])
     print (a[-3])

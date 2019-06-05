@@ -6,5 +6,5 @@ if __name__ == '__main__':
     shell_shell = Shell.Shell()
 
     pytest.main(['-s','-q','--alluredir','./Report/xml/','./day004'])
-    shell_shell.invoke('allure generate ./Report/xml -o ./report/html --clean')
+    shell_shell.invoke('allure generate ./Report/xml -o ./Report/html/ --clean')
 

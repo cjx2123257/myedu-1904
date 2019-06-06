@@ -13,7 +13,11 @@ def zy2():
             if m>=n:
               print ('%sx%s=%s'%(m,n,m*n),end=' ')
         print('')
-
+def zy2_1():
+    for m in range(1,10):
+        for n in range(1,m+1):
+            print ('%sx%s=%s'%(m,n,m*n),end=' ')
+        print('')
 def zy3():
     x = 4
     y = 7
@@ -32,11 +36,17 @@ def zy4():
     for i in range(1,1001):
         if i%4==1 and i%5==4 and i%6==3 and i%7==5 and i%8==1 and i%9==0:
             print (i)
-
+def zy5():
+    for i in range(1,10):
+        for j in range(1,i+1):
+            print('%s x %s = %s'%(j,i,j*i),end='   ')
+        print(' ')
 
 
 if __name__ == '__main__':
     zy1()
     zy2()
+    zy2_1()
     zy3()
     zy4()
+    zy5()
